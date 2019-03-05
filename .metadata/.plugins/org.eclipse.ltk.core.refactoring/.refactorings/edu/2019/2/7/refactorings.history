@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.edu.test.InfoServlet&apos; to &apos;AdditionalInfoServlet&apos;&#x0D;&#x0A;- Original project: &apos;edu&apos;&#x0D;&#x0A;- Original element: &apos;com.edu.test.InfoServlet&apos;&#x0D;&#x0A;- Renamed element: &apos;com.edu.test.AdditionalInfoServlet&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;InfoServlet&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.edu.test{InfoServlet.java[InfoServlet" matchStrategy="1" name="AdditionalInfoServlet" qualified="false" references="true" similarDeclarations="false" stamp="1550038923922" textual="false" version="1.0"/>
+</session>
