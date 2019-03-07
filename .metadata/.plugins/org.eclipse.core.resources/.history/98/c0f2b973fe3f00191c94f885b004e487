@@ -1,0 +1,13 @@
+<html>
+<body>
+	<%
+		String user = requeest.getParameter("name");
+		if (user ==null )
+			user = "Guest";
+	%>
+	<h1>
+		Hello
+		<%=user%>!
+	</h1>
+</body>
+</html>
