@@ -1,0 +1,22 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<html>
+<head>
+<title>Result</title>
+</head>
+<body>
+<%
+	String id = request.getParameter("id");
+	String pwd = request.getParameter("pwd");
+	
+	if(id.isEmpty() || pwd.isEmpty()){
+		request.setAttribute("error", "ID 또는 비밀번호를 입력해주세요!"); // 메시지 전달
+		RequestDispatcher rd = request.getRequestDispatcher("logInOut.jsp");// RequestDispatcher메소드는 forward, include 메소드를 가지고 있는 객체이다. ""에 설정한 파일의 요청을 rd로 넣고
+		rd.forward(request, response); //rd발생시 forward하게끔 지정한다. 
+		return;
+	}
+%>
+
+<%= id %> / <%= pwd %>
+
+</body>
+</html>
