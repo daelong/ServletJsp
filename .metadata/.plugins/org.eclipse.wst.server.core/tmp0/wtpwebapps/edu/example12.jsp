@@ -4,7 +4,7 @@
 <title>application</title>
 </head>
 <body>
-서버명 : <%= application.getServerInfo() //현재 사용하고있는 서버의 정보를 추출 %><br>
+서버명 : <%= application.getServerInfo() %><br>
 서블릿 버전 : <%= application.getMajorVersion() %>.<%= application.getMinorVersion()%>
 <h3>/edu 리스트</h3>
 <%
