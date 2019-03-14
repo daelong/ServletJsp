@@ -34,7 +34,7 @@
 	<!-- <listener>
 		<listener-class>com.edu.test.TestServletContextListener</listener-class>
 	</listener>-->
-	<error-page>
+	<!--<error-page>
 		<error-code>405</error-code>
 		<location>/errorHandle</location>
 	</error-page>
@@ -43,4 +43,11 @@
 		<exception-type>java.lang.NullPointerException</exception-type>
 		<location>/errorHandle</location>
 	</error-page>
+	-->
+	<resource-ref>
+		<description>Oracle Datasource example</description>
+		<res-ref-name>jdbc/myoracle</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
 </web-app>
