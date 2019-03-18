@@ -6,7 +6,7 @@
  //1. JDNI 서버 객체 생성
  InitialContext ic = new InitialContext();
  //2 lookup()
- DataSource ds = (DataSource) ic.lookup("java:comp/env/jdbc/myoracle");
+ DataSource ds = (DataSource)ic.lookup("java:comp/env/jdbc/myoracle");
  //3. getConnection()
  Connection conn = ds.getConnection();
  
@@ -19,5 +19,5 @@
  
  rs.close();
  stmt.close();
- conn.close();
+ conn.close(); //반납
  %>
