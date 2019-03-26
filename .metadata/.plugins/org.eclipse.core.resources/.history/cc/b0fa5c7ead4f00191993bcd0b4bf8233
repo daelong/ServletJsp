@@ -1,0 +1,16 @@
+<%@ page import="com.dev.vo.MemberVO" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+<html>
+<head>
+<title>삭제</title>
+</head>
+<body>
+<h3>삭제 정보 검색</h3>
+${error}
+<form action="memberSearch.do" method="post">
+	ID : <input type="text" name="id" />
+	<input type="hidden" name="job" value="delete" />
+	<input type="submit" value="검색" />
+</form>
+</body>
+</html>

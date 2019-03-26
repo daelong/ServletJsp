@@ -13,7 +13,7 @@ public class FrontController extends HttpServlet{
 	@Override
 	public void init(ServletConfig sc) throws ServletException{
 		charset = sc.getInitParameter("charset");
-		list = new Hashmap<String, Controller>();
+		list = new HashMap<String, Controller>();
 		list.put("/memberInsert.do", new MemberInsertController());
 		list.put("/memberSearch.do", new MemberSearchController());
 		list.put("/memberUpdate.do", new MemberUpdateController());
