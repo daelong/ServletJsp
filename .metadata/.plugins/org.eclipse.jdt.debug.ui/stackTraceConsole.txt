@@ -1,6 +1,0 @@
-<%
-		String id = request.getParameter("id");
-		String pwd = request.getParameter("pwd");
-	%>
-	<%= id %>
-	<%= pwd %>

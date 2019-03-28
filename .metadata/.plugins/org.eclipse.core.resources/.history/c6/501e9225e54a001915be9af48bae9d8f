@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="EUC-KR"?>
-<javaee:taglib version="2.1" xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd ">
-  <javaee:tlib-version>token</javaee:tlib-version>
-  <javaee:short-name>NMTOKEN</javaee:short-name>
-</javaee:taglib>
